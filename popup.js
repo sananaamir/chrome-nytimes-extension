@@ -52,7 +52,3 @@ function getArticles(){
 document.addEventListener('DOMContentLoaded', function () {
     getArticles();
 });
-
-
-
-//http://static01.nyt.com/images/2014/11/26/dining/26POUR/26POUR-master180.jpg
