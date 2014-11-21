@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "QuikNYT",
-  "description": "My first chrome extension that lets you read snippets of about 10 articles from nytimes",
+  "description": "Chrome extension that lets you read snippets of about 10 articles from nytimes",
   "version": "1.0.0",
 
   "browser_action": {
