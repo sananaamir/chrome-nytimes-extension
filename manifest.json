@@ -3,7 +3,7 @@
 
   "name": "QuikNYT",
   "description": "Chrome extension that lets you read snippets of about 10 articles from nytimes",
-  "version": "1.0.0",
+  "version": "1.1.0",
 
   "browser_action": {
     "default_icon": "icon.png",
