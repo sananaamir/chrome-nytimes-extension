@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "QuikNYT",
+  "description": "My first chrome extension that lets you read snippets of about 10 articles from nytimes",
+  "version": "1.0.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
