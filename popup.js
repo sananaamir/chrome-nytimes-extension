@@ -99,13 +99,27 @@ function getSearchResults(searchString){
 //The function gets called once the DOM content has been loaded
 document.addEventListener('DOMContentLoaded', function () {
         
+    //Search is not initiated until button is clicked
     document.getElementById('btn').addEventListener('click', function() {
+        
+        //Erase the previous view
         document.getElementById('generalList').innerHTML = '';
+        
+        /*
+        Grabbing the search string and then calling the search function
+        After the search result the trending/latest is also called 
+        just to keep those in the list all the time
+        */
         var searchString = document.getElementById('searchString').value;
         document.getElementById('searchHeader').innerHTML = 'Search results:';
         getSearchResults(searchString);
         getArticles();
     });
+    
+    /*
+    When user clicks the trending icon a default
+    list of trending/latest snippets is shown
+    */
     getArticles();
 
 });
