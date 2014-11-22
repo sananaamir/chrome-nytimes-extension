@@ -8,5 +8,10 @@
   "browser_action": {
     "default_icon": "quiknyt.png",
     "default_popup": "popup.html"
-  }
+  },
+    "icons": {
+        "19": "quiknyt.png",
+        "48": "quiknyt48.png",
+        "128": "quiknyt.png"
+    }
 }
