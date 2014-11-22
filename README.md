@@ -9,4 +9,5 @@ https://chrome.google.com/webstore/detail/quiknyt/fpfhkfeocmacmdmddnfekgbbgfojna
 
 ## Change Log:
 version 1.2.1: Fixed trending/latest get request
+
 version 1.2.0: Added search functionality, to search articles
