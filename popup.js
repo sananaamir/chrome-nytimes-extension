@@ -5,7 +5,7 @@ The function gets the json response and injects it into an unordered list
 function getArticles(){
     
     //URL for the nytimes api
-    var URL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?&api-key=adf40b3b4306272aaa839500a3e15cc5:13:70127702";
+    var URL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?&api-key=YOUR-API-KEY";
 
     //The get request
     var xmlHttp = null;
