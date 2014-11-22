@@ -13,3 +13,7 @@ version 1.2.2: Added png files for different icon displays
 version 1.2.1: Fixed trending/latest get request
 
 version 1.2.0: Added search functionality, to search articles
+
+version 1.1.0: 
+
+version 1.0.0: Displays 10 trending/latest articles
