@@ -14,6 +14,6 @@ version 1.2.1: Fixed trending/latest get request
 
 version 1.2.0: Added search functionality, to search articles
 
-version 1.1.0: 
+version 1.1.0: Display changes and comment js code
 
 version 1.0.0: Displays 10 trending/latest articles
