@@ -39,7 +39,7 @@ function getArticles(){
         }
         
         //Appended imgString in the list
-        document.getElementById('test').innerHTML += '<li>' + imgString + '<p>'  + 
+        document.getElementById('generalList').innerHTML += '<li>' + imgString + '<p>'  + 
             data.response.docs[i].snippet + 
             '</p> <a target="_blank" href="' +                
             data.response.docs[i].web_url + 
@@ -86,7 +86,7 @@ function getSearchResults(searchString){
         }
         
         //Appended imgString in the list
-        document.getElementById('test').innerHTML += '<li>' + imgString + '<p>'  + 
+        document.getElementById('searchList').innerHTML += '<li>' + imgString + '<p>'  + 
             data.response.docs[i].snippet + 
             '</p> <a target="_blank" href="' +                
             data.response.docs[i].web_url + 
@@ -98,10 +98,14 @@ function getSearchResults(searchString){
 
 //The function gets called once the DOM content has been loaded
 document.addEventListener('DOMContentLoaded', function () {
-    //getArticles();
+        
     document.getElementById('btn').addEventListener('click', function() {
-    var searchString = document.getElementById('searchString').value;
-    getSearchResults(searchString);
-})
+        document.getElementById('generalList').innerHTML = '';
+        var searchString = document.getElementById('searchString').value;
+        document.getElementById('searchHeader').innerHTML = 'Search results:';
+        getSearchResults(searchString);
+        getArticles();
+    });
+    getArticles();
 
 });
