@@ -8,8 +8,6 @@ I will keep on improving the extension.
 https://chrome.google.com/webstore/detail/quiknyt/fpfhkfeocmacmdmddnfekgbbgfojnaje
 
 ## Change Log:
-version 1.2.2: Added png files for different icon displays
-
 version 1.2.1: Fixed trending/latest get request
 
 version 1.2.0: Added search functionality, to search articles
