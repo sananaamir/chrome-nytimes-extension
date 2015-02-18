@@ -52,7 +52,7 @@ function getSearchResults(searchString){
     
     console.log(searchString);
     //URL for the nytimes api
-    var URL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + searchString + "&api-key=adf40b3b4306272aaa839500a3e15cc5:13:70127702";
+    var URL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + searchString + "&api-key=YOUR-API-KEY";
 
     //The get request
     var xmlHttp = null;
